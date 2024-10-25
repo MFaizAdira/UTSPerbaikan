@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6600">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/heartShape"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/groupg271"
+        />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:text="Lorem ipsun dolor sit amet, consectetur
+adipiciscing elit,sed do euismod" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="#FCDE70"
+            android:fontFamily="@font/league_spartan_thin"
+            android:text="Log In"
+            android:textColor="#FF6600" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="Sign Up"
+            android:backgroundTint="#FEF9D9"
+            android:textColor="#FF6600"/>
+    </LinearLayout>
+
+</RelativeLayout>

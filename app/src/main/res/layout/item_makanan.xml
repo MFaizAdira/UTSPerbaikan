@@ -1,0 +1,47 @@
+<!-- res/layout/item_makanan.xml -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView untuk gambar makanan di kiri -->
+
+        <!-- Layout untuk Nama, Deskripsi, dan Harga -->
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/makan5" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nama Logo"
+            android:textAlignment="center"
+            android:textColor="#FF5722" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="Lorem ipsum dolor sit amet, consectetur." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
